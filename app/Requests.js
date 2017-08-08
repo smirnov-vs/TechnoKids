@@ -3,7 +3,7 @@
  */
 export default function onAuthPressed() {
     this.setState({isLoading: true});
-    fetch('http://0.0.0.0:8000/login/', {
+    fetch('http://wish.ru.net:8000/login/', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',

@@ -2,14 +2,14 @@
  * Created by sp41mer on 18.03.17.
  */
 
-export const url = 'http://78.155.219.128:8888';
+export const url = 'http://wish.ru.net:8000';
 
-export const dnevnikUrl = 'http://78.155.219.128:8070/eljur/marks?';
+export const dnevnikUrl = 'http://wish.ru.net:8070/eljur/marks?';
 
 export let user_id = 0;
 
 export function giveIdForKid(user_id){
-    if (user_id == 2) return 1;
+    if (user_id === 2) return 1;
     else return 2;
 }
 
